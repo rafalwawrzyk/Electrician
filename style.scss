@@ -16,7 +16,7 @@ body{
    
     
     ul{
-         list-style: none outside none;
+        list-style: none outside none;
         margin: 0;
         padding: 0;
         display: flex;
@@ -158,5 +158,50 @@ body{
 }
 
 .check-list {
-    list-style: none;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    li{
+        padding: 5px;
+        margin: 0;
+        
+    }
+    i{
+        margin-right: 10px;
+        color:#f0ad4e;
+    }
+}
+
+.about-btn {
+    height: 40px;
+    width: 200px;
+    padding: 0;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.skew-div {
+	height: 400px;
+    width:25%;
+    transform: skew(20deg);
+  
+	
+}
+
+.skew-1{
+    background-color: red;
+}
+
+.skew-2{
+    background-color: green;
+}
+
+.skew-3{
+    background-color: yellow;
+}
+
+.skew-cont {
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
