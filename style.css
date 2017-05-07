@@ -143,21 +143,29 @@ body {
   margin-left: 5px;
   margin-top: 20px; }
 
-.skew-div {
-  height: 400px;
-  width: 25%;
-  -webkit-transform: skew(20deg);
-  -ms-transform: skew(20deg);
-  transform: skew(20deg); }
-
 .skew-1 {
-  background-color: red; }
+  -webkit-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  transform: skewX(20deg);
+  width: 500px;
+  height: 400px;
+  overflow: hidden; }
 
 .skew-2 {
-  background-color: green; }
+  -webkit-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  transform: skewX(20deg);
+  width: 500px;
+  height: 400px;
+  overflow: hidden; }
 
 .skew-3 {
-  background-color: yellow; }
+  -webkit-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  transform: skewX(20deg);
+  width: 500px;
+  height: 400px;
+  overflow: hidden; }
 
 .skew-cont {
   display: -webkit-flex;
@@ -168,4 +176,31 @@ body {
   justify-content: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  background-color: #081a2a; }
+
+.skew-image {
+  -webkit-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -52px; }
+
+.mask-skew {
+  -webkit-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  transform: skewX(20deg);
+  width: 500px;
+  height: 500px;
+  overflow: hidden; }
+
+.art-skew {
+  -webkit-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  position: relative;
+  left: -90px;
+  width: auto;
+  height: 100%; }
+
+.about-sect {
+  margin-bottom: 50px; }
