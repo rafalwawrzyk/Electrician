@@ -1,7 +1,6 @@
 body {
     margin: 0;
     box-sizing: border-box;
-    height: 6000px;
 }
 
 .navigation {
@@ -351,4 +350,16 @@ body {
         padding-top: 10px;
     }
    
+}
+
+.footer-map {
+    height: 250px;
+    margin-bottom: 0;
+}
+
+.footer-sect {
+     background-color:  #0d1a26;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
