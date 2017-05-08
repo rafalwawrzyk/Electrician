@@ -298,18 +298,7 @@ body {
     color:#f0ad4e;
 }
 
-.carousel-section {
-    background-color: #0d1a26;
-    padding: 50px;
-    max-height: 300px;
-    position: relative;
-    
-}
 
-.carousel-image {
-    width: auto;
-    height: 100%;
-}
 
 
 .item{
@@ -317,22 +306,23 @@ body {
     display:block;
 }
 
-.carousel-caption{
-    color:#000;
-    position:static;
-}
-.carousel-size-section {
-    height: 300px;
-    position: absolute;
-    top:0;
-    left:0;
-    img{
-        height: 200px;
-    }
+
+
+
+
+#carousel-target {
+    min-height: 300px;
+    background-image: url(img/facade_building_glass_bottom_view_sky_115173_1920x1080.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.slide-box {
-    background-color: red;
-    height: 300px;
-    width: 100%;
+.cite-text {
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    padding: 100px;
 }
+
+
