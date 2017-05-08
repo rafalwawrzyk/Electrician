@@ -285,3 +285,54 @@ body {
         color:#f0ad4e;
     }
 }
+
+.bulb-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.bulb {
+   font-size:4rem;
+    color:#f0ad4e;
+}
+
+.carousel-section {
+    background-color: #0d1a26;
+    padding: 50px;
+    max-height: 300px;
+    position: relative;
+    
+}
+
+.carousel-image {
+    width: auto;
+    height: 100%;
+}
+
+
+.item{
+    background-color:#ccc;
+    display:block;
+}
+
+.carousel-caption{
+    color:#000;
+    position:static;
+}
+.carousel-size-section {
+    height: 300px;
+    position: absolute;
+    top:0;
+    left:0;
+    img{
+        height: 200px;
+    }
+}
+
+.slide-box {
+    background-color: red;
+    height: 300px;
+    width: 100%;
+}
