@@ -10,6 +10,8 @@ body {
     vertical-align: middle;
     padding: 25px;
     z-index: 999;
+    
+    
     ul {
         list-style: none outside none;
         margin: 0;
@@ -401,4 +403,12 @@ iframe {
         font-size: 1.5rem;
         
     }
+}
+
+
+.navigation-row {
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+    width: inherit;
 }
