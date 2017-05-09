@@ -161,29 +161,23 @@ body {
 
 .skew-1 {
     transform: skewX(20deg);
-   
     width: 500px;
     height: 400px;
     overflow: hidden;
-    
 }
 
 .skew-2 {
     transform: skewX(20deg);
-   
     width: 500px;
     height: 400px;
     overflow: hidden;
-    
 }
 
 .skew-3 {
     transform: skewX(20deg);
-   
     width: 500px;
     height: 400px;
     overflow: hidden;
-    
 }
 
 .skew-cont {
@@ -201,11 +195,9 @@ body {
 
 .mask-skew {
     transform: skewX(20deg);
-    
     width: 500px;
     height: 500px;
     overflow: hidden;
-   
 }
 
 .art-skew {
@@ -214,10 +206,7 @@ body {
     left: -90px;
     width: auto;
     height: 100%;
-  
 }
-
-
 
 .about-sect {
     margin-bottom: 50px;
@@ -225,27 +214,25 @@ body {
 
 .skew-text {
     position: absolute;
-    top:40%;
+    top: 40%;
     left: 25%;
-    color:white;
-    font-size:3rem;
+    color: white;
+    font-size: 3rem;
     transform: skewX(-20deg)
 }
 
 .skew-button {
     position: absolute;
-    top:55%;
+    top: 55%;
     left: 30%;
-    color:white;
-    font-size:2rem;
+    color: white;
+    font-size: 2rem;
     transform: skewX(-20deg);
-    font-size:1rem;
+    font-size: 1rem;
     width: 110px;
     height: 40px;
     text-align: center;
 }
-
-
 
 .our-service {
     text-align: center;
@@ -254,8 +241,8 @@ body {
 
 .icons-section-box {
     text-align: center;
-    i{
-        color:#f0ad4e;
+    i {
+        color: #f0ad4e;
         padding: 40px;
     }
 }
@@ -263,9 +250,8 @@ body {
 .contact-header {
     background-color: #0d1a26;
     text-align: center;
-    color:#fff;
+    color: #fff;
     padding: 70px;
-    
 }
 
 .contact-header-par {
@@ -277,11 +263,11 @@ body {
 }
 
 .white-btn {
-   color:#1b1c1c;
+    color: #1b1c1c;
     font-weight: 600;
     background-color: #e2e2e2;
-    i{
-        color:#f0ad4e;
+    i {
+        color: #f0ad4e;
     }
 }
 
@@ -290,24 +276,15 @@ body {
     margin-top: 40px;
 }
 
-
-
 .bulb {
-   font-size:4rem;
-    color:#f0ad4e;
+    font-size: 4rem;
+    color: #f0ad4e;
 }
 
-
-
-
-.item{
-    background-color:#ccc;
-    display:block;
+.item {
+    background-color: #ccc;
+    display: block;
 }
-
-
-
-
 
 #carousel-target {
     min-height: 300px;
@@ -324,8 +301,6 @@ body {
     padding: 100px;
 }
 
-
-
 .companies-sect {
     text-align: center;
     margin-top: 50px;
@@ -333,7 +308,6 @@ body {
 
 .emergency-sect-el {
     text-align: center;
-    
     vertical-align: middle;
 }
 
@@ -343,13 +317,11 @@ body {
 }
 
 .emergency-text {
-    p{
-        
+    p {
         font-size: 1.1rem;
         clear: both;
         padding-top: 10px;
     }
-   
 }
 
 .footer-map {
@@ -358,8 +330,30 @@ body {
 }
 
 .footer-sect {
-     background-color:  #0d1a26;
+    background-color: #0d1a26;
     margin-bottom: 0;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+@media(max-width:768px) {
+    .nav-section {
+        font-size: 0.7rem;
+    }
+    .navigation {
+        a {
+            font-size: 0.9rem;
+            padding: 10px;
+        }
+    }
+    .form-name-text{
+        width: 100%;
+    }
+    
+}
+
+@media(max-width:940px){
+    iframe{
+        width:100%;
+    }
 }

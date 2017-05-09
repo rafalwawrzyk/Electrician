@@ -308,3 +308,16 @@ body {
   margin-bottom: 0;
   padding-top: 50px;
   padding-bottom: 50px; }
+
+@media (max-width: 768px) {
+  .nav-section {
+    font-size: 0.7rem; }
+  .navigation a {
+    font-size: 0.9rem;
+    padding: 10px; }
+  .form-name-text {
+    width: 100%; } }
+
+@media (max-width: 940px) {
+  iframe {
+    width: 100%; } }
