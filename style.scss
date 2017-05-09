@@ -1,6 +1,7 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .navigation {
@@ -198,6 +199,7 @@ body {
     width: 500px;
     height: 500px;
     overflow: hidden;
+    position: relative;
 }
 
 .art-skew {
@@ -206,6 +208,7 @@ body {
     left: -90px;
     width: auto;
     height: 100%;
+    overflow: hidden;
 }
 
 .about-sect {
@@ -213,18 +216,13 @@ body {
 }
 
 .skew-text {
-    position: absolute;
-    top: 40%;
-    left: 25%;
+    
     color: white;
     font-size: 3rem;
     transform: skewX(-20deg)
 }
 
 .skew-button {
-    position: absolute;
-    top: 55%;
-    left: 30%;
     color: white;
     font-size: 2rem;
     transform: skewX(-20deg);
@@ -233,6 +231,7 @@ body {
     height: 40px;
     text-align: center;
 }
+
 
 .our-service {
     text-align: center;
@@ -252,6 +251,10 @@ body {
     text-align: center;
     color: #fff;
     padding: 70px;
+}
+
+iframe {
+    width: 100%;
 }
 
 .contact-header-par {
@@ -346,14 +349,38 @@ body {
             padding: 10px;
         }
     }
-    .form-name-text{
+    .form-name-text {
         width: 100%;
     }
-    
+    .skew-text {
+        font-size: 1.5rem;
+    }
+    .mask-skew {
+        transform: none;
+    }
+    .art-skew {
+        transform: none;
+        display: block;
+    }
+   
 }
 
-@media(max-width:940px){
-    iframe{
-        width:100%;
+@media(max-width:992px) {
+    .video-sect-text {
+        text-align: center;
     }
+    .skew-text {
+        font-size: 2rem;
+    }
+}
+
+.skew-cont-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:30%;
+    left:30%;
+    text-align: center;
 }
