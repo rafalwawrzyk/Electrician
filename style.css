@@ -361,7 +361,9 @@ iframe {
 
 @media (max-width: 544px) {
   .skew-text {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .bulb {
+    font-size: 2rem; } }
 
 .navigation-row {
   overflow: hidden;
