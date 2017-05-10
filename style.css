@@ -337,6 +337,10 @@ iframe {
   .skew-text {
     font-size: 2rem; } }
 
+@media (max-width: 768px) {
+  .footer-contact-info {
+    margin-bottom: 30px; } }
+
 .skew-cont-box {
   display: -webkit-flex;
   display: -ms-flexbox;

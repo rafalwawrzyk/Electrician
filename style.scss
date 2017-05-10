@@ -383,6 +383,12 @@ iframe {
     }
 }
 
+@media(max-width:768px){
+    .footer-contact-info {
+    margin-bottom: 30px;
+}
+}
+
 .skew-cont-box {
     display: flex;
     justify-content: center;
@@ -410,6 +416,8 @@ iframe {
         margin-bottom: 10px;
     }
 }
+
+
 
 .navigation-row {
     overflow: hidden;
@@ -462,3 +470,5 @@ iframe {
         transform: rotate(360deg);
     }
 }
+
+
