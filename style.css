@@ -75,7 +75,7 @@ body {
     color: #fff; }
   .section-photo p {
     font-size: 3rem;
-    color: white; }
+    color: #fff; }
 
 .container {
   position: relative; }
@@ -180,7 +180,7 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #081a2a; }
+  background-color: #0d1a26; }
 
 .skew-image {
   -webkit-transform: skewX(-20deg);
@@ -263,7 +263,7 @@ iframe {
   color: #f0ad4e; }
 
 .item {
-  background-color: #ccc;
+  background-color: #e2e2e2;
   display: block; }
 
 #carousel-target {

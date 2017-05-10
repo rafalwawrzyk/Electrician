@@ -1,3 +1,9 @@
+$color1:#0d1a26;
+$orange:#f0ad4e;
+$dark:#1b1c1c;
+$cream:#e2e2e2;
+
+
 body {
     margin: 0;
     box-sizing: border-box;
@@ -5,7 +11,7 @@ body {
 }
 
 .navigation {
-    background-color: #0d1a26;
+    background-color: $color1;
     text-align: center;
     vertical-align: middle;
     padding: 25px;
@@ -31,7 +37,7 @@ body {
         padding: 30px;
         text-transform: uppercase;
         &:hover{
-            color:#f0ad4e;
+            color:$orange;
             transition: 900ms;
         }
     }
@@ -74,7 +80,7 @@ body {
     }
     p {
         font-size: 3rem;
-        color: white;
+        color: #fff;
     }
 }
 
@@ -95,7 +101,7 @@ body {
 }
 
 .form-sect {
-    background-color: #0d1a26;
+    background-color: $color1;
     padding: 23px;
     position: relative;
     &::before {
@@ -108,7 +114,7 @@ body {
         width: 270px;
         height: 40px;
         display: block;
-        background-color: #f0ad4e;
+        background-color: $orange;
         top: -40px;
         left: 0px;
         padding: 5px;
@@ -133,7 +139,7 @@ body {
 }
 
 .decorate-text {
-    color: #f0ad4e;
+    color: $orange;
 }
 
 .check-list {
@@ -146,7 +152,7 @@ body {
     }
     i {
         margin-right: 10px;
-        color: #f0ad4e;
+        color: $orange;
     }
 }
 
@@ -189,7 +195,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #081a2a;
+    background-color: $color1;
 }
 
 .skew-image {
@@ -241,13 +247,13 @@ body {
 .icons-section-box {
     text-align: center;
     i {
-        color: #f0ad4e;
+        color: $orange;
         padding: 40px;
     }
 }
 
 .contact-header {
-    background-color: #0d1a26;
+    background-color: $color1;
     text-align: center;
     color: #fff;
     padding: 70px;
@@ -266,11 +272,11 @@ iframe {
 }
 
 .white-btn {
-    color: #1b1c1c;
+    color: $dark;
     font-weight: 600;
-    background-color: #e2e2e2;
+    background-color: $cream;
     i {
-        color: #f0ad4e;
+        color:$orange ;
     }
 }
 
@@ -281,11 +287,11 @@ iframe {
 
 .bulb {
     font-size: 4rem;
-    color: #f0ad4e;
+    color: $orange;
 }
 
 .item {
-    background-color: #ccc;
+    background-color: $cream;
     display: block;
 }
 
@@ -315,7 +321,7 @@ iframe {
 }
 
 .emergency-sect {
-    background-color: #f0ad4e;
+    background-color: $orange;
     margin-top: 50px;
 }
 
@@ -333,7 +339,7 @@ iframe {
 }
 
 .footer-sect {
-    background-color: #0d1a26;
+    background-color: $color1;
     margin-bottom: 0;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -418,7 +424,7 @@ iframe {
     width: 80px;
     height: 80px;
     border: 5px solid white;
-    border-top: 3px solid #f0ad4e;
+    border-top: 3px solid $orange;
     border-radius: 100%;
     background-color: rgba(227, 227, 227, 0.1);
     z-index: 2000;
