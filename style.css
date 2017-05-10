@@ -365,6 +365,10 @@ iframe {
   .bulb {
     font-size: 2rem; } }
 
+@media (max-width: 532px) {
+  .call-btn {
+    margin-bottom: 10px; } }
+
 .navigation-row {
   overflow: hidden;
   position: fixed;

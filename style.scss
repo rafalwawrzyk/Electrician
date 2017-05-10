@@ -405,6 +405,12 @@ iframe {
     }
 }
 
+@media(max-width:532px){
+    .call-btn{
+        margin-bottom: 10px;
+    }
+}
+
 .navigation-row {
     overflow: hidden;
     position: fixed;
