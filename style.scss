@@ -223,6 +223,7 @@ body {
 
 .about-sect {
     margin-bottom: 50px;
+    margin-top:50px;
 }
 
 .skew-text {
@@ -239,9 +240,15 @@ body {
     text-align: center;
 }
 
+#services{
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
 .our-service {
     text-align: center;
-    margin-top: 50px;
+  
+    
 }
 
 .icons-section-box {
@@ -261,6 +268,11 @@ body {
 
 iframe {
     width: 100%;
+}
+
+#whyUs{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .contact-header-par {
@@ -472,3 +484,12 @@ iframe {
 }
 
 
+
+
+
+.service-col {
+    p{
+        margin-top: 20px;
+        font-size: 1.3rem;
+    }
+}

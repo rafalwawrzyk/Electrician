@@ -208,7 +208,8 @@ body {
   overflow: hidden; }
 
 .about-sect {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  margin-top: 50px; }
 
 .skew-text {
   color: white;
@@ -222,9 +223,12 @@ body {
   height: 40px;
   text-align: center; }
 
+#services {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
 .our-service {
-  text-align: center;
-  margin-top: 50px; }
+  text-align: center; }
 
 .icons-section-box {
   text-align: center; }
@@ -240,6 +244,10 @@ body {
 
 iframe {
   width: 100%; }
+
+#whyUs {
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .contact-header-par {
   font-size: 2rem; }
@@ -427,3 +435,7 @@ iframe {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
+
+.service-col p {
+  margin-top: 20px;
+  font-size: 1.3rem; }
