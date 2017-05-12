@@ -448,6 +448,12 @@ iframe {
         flex-direction: column;
         
     }
+    .contact-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 }
 
 @media(max-width:532px){
@@ -524,5 +530,7 @@ iframe {
 .switch-text {
     font-weight: 700;
 }
+
+
 
 
