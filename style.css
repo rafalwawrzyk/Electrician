@@ -41,7 +41,19 @@ body {
   text-align: right; }
 
 .logo-brand {
-  text-align: center; }
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
   .logo-brand h1 {
     font-size: 3rem;
     margin-top: -10px; }
@@ -383,7 +395,19 @@ iframe {
   .skew-text {
     font-size: 1.5rem; }
   .bulb {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .call-info {
+    display: none; }
+  .social-icons {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; } }
 
 @media (max-width: 532px) {
   .call-btn {
