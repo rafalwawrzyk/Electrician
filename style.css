@@ -313,7 +313,16 @@ iframe {
 .emergency-sect-el {
   text-align: center;
   vertical-align: middle;
-  font-weight: 600; }
+  font-weight: 600;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 .emergency-sect {
   background-color: #f0ad4e;
@@ -424,7 +433,9 @@ iframe {
 
 @media (max-width: 532px) {
   .call-btn {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  .emergency-text p {
+    font-size: 1rem; } }
 
 .navigation-row {
   overflow: hidden;

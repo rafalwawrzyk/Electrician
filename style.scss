@@ -346,6 +346,9 @@ iframe {
     text-align: center;
     vertical-align: middle;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .emergency-sect {
@@ -459,6 +462,9 @@ iframe {
 @media(max-width:532px){
     .call-btn{
         margin-bottom: 10px;
+    }
+    .emergency-text p{
+        font-size:1rem;
     }
 }
 
